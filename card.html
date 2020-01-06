@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /*Globals*/
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #ebebeb;
+        text-align: center;
+        font-family: arial;
+      }
+
+      article {
+        display: inline-block;
+        background: white;
+        text-align: left;
+        margin-top: 120px;
+        border-radius: 18px;
+        box-shadow: 0px 0px 20px #939393;
+      }
+
+      img {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .top {
+        position: relative;
+      }
+
+      .letters {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background: black;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+      }
+
+      .bottom {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      img {
+        display: block;
+      }
+
+      li {
+        text-align: center;
+      }
+
+      li a {
+        color: #3eaaec;
+        display: inline-block;
+        margin-top: 6px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .button {
+        padding: 10px;
+        background-color: #3eaaec;
+        color: white;
+        border-radius: 50px;
+        display: inline-block;
+        width: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <div class="top">
+        <figure>
+          <img src="https://picsum.photos/400/400" alt="Girl" />
+        </figure>
+        <div class="letters">
+          <h1>Jackie Winters</h1>
+          <a href="">@jackieSnaps</a>
+        </div>
+      </div>
+      <div class="bottom">
+        <ul>
+          <li>
+            <p>391</p>
+            <a href="">Tweets</a>
+          </li>
+          <li>
+            <p>253</p>
+            <a href="">Following</a>
+          </li>
+          <li>
+            <p>544</p>
+            <a href="">Followers</a>
+          </li>
+        </ul>
+        <a class="button" href="#">
+          <i class="fab fa-twitter"></i>
+          Follow
+        </a>
+      </div>
+    </article>
+    <script
+      src="https://kit.fontawesome.com/43f3cc2ec8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
